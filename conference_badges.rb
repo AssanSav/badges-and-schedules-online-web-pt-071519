@@ -15,3 +15,7 @@ def assign_rooms(speakers)
   end
   new_arr
 end
+
+def printer
+  
+end
