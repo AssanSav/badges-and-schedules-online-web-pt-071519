@@ -8,3 +8,4 @@ def batch_badge_creator(attendees)
     return name(badge_maker)
   binding.pry
 end
+end
