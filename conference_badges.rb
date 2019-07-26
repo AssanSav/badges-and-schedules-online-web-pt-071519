@@ -5,6 +5,6 @@ end
 
 def batch_badge_creator(attendees)
   attendees.map do |name|
-    return name[badge_maker]
+    return name(badge_maker)
   binding.pry
 end
