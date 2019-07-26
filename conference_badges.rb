@@ -16,7 +16,7 @@ def assign_rooms(speakers)
   new_arr
 end
 
-def printer
-  batch_badge_creator.each {|attendee| puts attendee}
-  assign_rooms.each {|room| puts room}
+def printer(attendees)
+  attendees.each {|attendee| puts batch_badge_creator(attendee)}
+  assign_rooms.each {|room| puts attendee(room)}
 end
